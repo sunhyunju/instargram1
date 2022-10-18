@@ -6,67 +6,103 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SHJ Instargram</title>
     <link href="style.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/87e902a523.js" crossorigin="anonymous"></script>
 </head>
 <body>
 
-    <div> <!--상단바영역-->
+    <div id="top"> <!--상단바영역-->
         <img src="https://www.instagram.com/static/images/web/mobile_nav_type_logo.png/735145cfe0a4.png"/>
         <input type="search" value="검색"/>
+        <div>
+            <i class="fa-sharp fa-solid fa-house"></i>
+            <i class="fa-sharp fa-solid fa-magnifying-glass"></i>
+            <i class="fa-sharp fa-solid fa-paper-plane"></i>
+            <i class="fa-sharp fa-solid fa-heart"></i>
+        </div>
     </div>
 
     <div id="profile"> <!--프로필영역-->
-        <img src="image/dog.jpg" width="50px"/>
-        <div>
-        <p><h2>eleasesun</h2></p>
-        <button>프로필 편집</button>
+        <div class="profile_pic">
+            <img class="circle_img" src="image/dog.jpg" />
+        </div>
+        <div id="profile_info">
+            <div id="id">
+                eleasesun
+                <i class="fa-sharp fa-solid fa-gear"></i>
+            </div>
+            
+            <button>프로필 편집</button>
         </div>
     </div>    
 
-    <div> <!--소개글영역-->
+    <div id="intro"> <!--소개글영역-->
         <p><strong>선현주(SUN HYUN JU)</strong><br>
         교사
        </p>
         <p>학교홈페이지 : <a href="https://juksan.hs.kr/">죽산고등학교</a></p>
     </div>
     
-    <div> <!--하이라이트 영역-->
+    <div id="highlight_area"> <!--하이라이트 영역-->
         <div class="highlight">
-            <div>
-                <img src="image/강아지1.jpg" width="35px">
+            <div class="highlight_pic">
+                <img class="circle_img" src="image/강아지1.jpg" width="35px">
             </div>
             <div> 
                 👍
             </div>
         </div>
-        <div>
-            <img src="image/강아지2.jpg" width="35px">
-        </div>
-        <div>
-            👌
-        </div>
+        <div class="highlight">
+            <div class="highlight_pic">
+                <img class="circle_img" src="image/강아지2.jpg" width="35px">
+            </div>    
+            <div>
+                👌
+            </div>
+        </div> 
+        <div></div>   
     </div>
 
-    <div> <!--상태표시줄 영역-->
-        <p>게시물<br>
-        팔로워<br>
-        팔로우<br>
-        133<br>
-        408<br>
-        189
-        </p>
-    </div>
+    <div id="post"> <!--상태표시줄 영역-->
+        <div class="stat">
+            게시물<br/>
+            133
+        </div>
+        <div class="stat">
+            팔로워<br/>
+            408
+        </div>
+        <div class="stat">
+           팔로우<br/>
+           189
+        </div>
+     </div>
 
-    <div>아이콘이 들어갈 자리</div>
+    <div id="icons">
+        <div class="selected">
+            <i class="fa-sharp fa-solid fa-table-cells-large"></i>
+        </div>
+            <i class="fa-sharp fa-solid fa-film"></i>
+            <i class="fa-sharp fa-solid fa-circle-play"></i>
+            <i class="fa-sharp fa-solid fa-bookmark"></i>
+            <i class="fa-sharp fa-solid fa-user"></i>
+        
+    </div>
     <div><!--썸네일 영역-->
-        <img src="image/1.jpg" width="32%"/>
-        <img src="image/2.jpg" width="32%"/>
-        <img src="image/3.jpg" width="32%"/>
-        <img src="image/4.jpg" width="32%"/>
-        <img src="image/5.jpg" width="32%"/>
-        <img src="image/6.jpg" width="32%"/>
-        <img src="image/7.jpg" width="32%"/>
-        <img src="image/8.jpg" width="32%"/>
-        <img src="image/9.jpg" width="32%"/>
+        <div class="thumb">
+            <img src="image/1.jpg" class="nail"/>
+            <img src="image/2.jpg" class="nail"/>
+            <img src="image/3.jpg" class="nail"/>
+        </div>
+        <div class="thumb">
+            <img src="image/4.jpg" class="nail"/>
+            <img src="image/5.jpg" class="nail"/>
+            <img src="image/6.jpg" class="nail"/>
+        </div>
+        <div class="thumb">
+            <img src="image/7.jpg" class="nail"/>
+            <img src="image/8.jpg" class="nail"/>
+            <img src="image/9.jpg" class="nail"/>
+        </div>
 
     </div>
 </body>
