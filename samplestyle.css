@@ -1,0 +1,12 @@
+#bg{
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border: solid;
+    border-top-width:10px;
+    border-left-width: 10px;
+    
+    border-top-color: blue;
+
+}
